@@ -2,8 +2,7 @@ Feature: Create a post Request Test
 
 Background:
   Given url 'https://reqres.in'
-  
-
+ 
   Scenario: Create a POST request
   Given path '/api/users/2'
   And request {"name": "Sanjeet","job": "QAAutomation"}
